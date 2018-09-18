@@ -1,0 +1,22 @@
+{
+  "name": "anto-caroca.github.io",
+  "version": "1.0.0",
+  "description": "portafolio personal de front-end developer",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anto-caroca/anto-caroca.git"
+  },
+  "keywords": [
+    "portafolio"
+  ],
+  "author": "Antonella Caroca Sanhueza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anto-caroca/anto-caroca/issues"
+  },
+  "homepage": "https://github.com/anto-caroca/anto-caroca#readme"
+}
