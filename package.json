@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/anto-caroca/anto-caroca/issues"
   },
-  "homepage": "https://github.com/anto-caroca/anto-caroca#readme"
+  "homepage": "https://github.com/anto-caroca/anto-caroca#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "dev": "^0.1.3",
+    "mocha": "^5.2.0"
+  }
 }
