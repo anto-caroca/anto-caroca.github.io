@@ -9,19 +9,19 @@ body{
     content: '';
     height: 100hv;
     width: 100%;
-    background-image: "assets/webDev.jpg";
+    background-image: url( 'webDev.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: block;
-    filter: blur(10px);
-    -webkit-filter: blur(10px);
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
     transition: all 1000ms;
 }
 
 .showcase:hover::after {
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
 }
 
 .content {
