@@ -5,24 +5,21 @@ body{
     font-family: 'Segoe UI, Tahoma, Geneva, Verdana, sans-serif';
 }
 
-.showcase::after {
-    content: '';
-    height: 100hv;
-    width: 100%;
+header {
     background-image: url( 'webDev.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: block;
-    filter: blur(5px);
-    -webkit-filter: blur(5px);
-    transition: all 1000ms;
+    height: 800px;
+    text-align: center;
+    color: black;
 }
 
-.showcase:hover::after {
-    filter: blur(1px);
-    -webkit-filter: blur(1px);
-}
+/*.showcase:hover {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+  }*/
 
 .content {
     position: absolute;
@@ -34,18 +31,18 @@ body{
     width: 300px;
     height: 350px;
     text-align: center;
-    transition: all 1000ms;
+    
 }
 
-.content .logo {
+ .avatar {
     height: 180px;
     width: 180px; 
     border-radius: 50%;
+    margin-top: 20%;
 }
 
-.conent .title {
-    font-size: 2.2rem;
-    margin-top: 1rem;
+.title{
+    margin-top: -110px;
 }
 
 .content .text {
@@ -98,7 +95,7 @@ footer p {
 
 /* small screens */
 @media(max-width: 560px){
-    .showcase::after{
+    .showcase{
         height: 50vh;
     }
 
@@ -107,7 +104,7 @@ footer p {
         margin-top: 5px;
     }
 
-    .content .logo{
+    .avatar{
         height: 140px;
         width: 140px;
     }
