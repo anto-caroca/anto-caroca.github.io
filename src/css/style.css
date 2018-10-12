@@ -86,6 +86,7 @@
         z-index: -1;
         background: rgba(170, 170, 170, 0.8); }
   
+
   h1,
   h2,
   h3 {
@@ -100,7 +101,7 @@
     h3.sm-heading {
       margin-bottom: 2rem;
       padding: 0.2rem 1rem;
-      background: rgba(119, 119, 119, 0.5); }
+      background: rgba(63, 62, 62, 0.5); }
 
 a {
     color: #fff;
@@ -192,10 +193,8 @@ main {
   color: #fff; }
 
 .btn-light {
-  background: #c4c4c4;
+  background:#666666;
   color: #333; }
-
-
 
 @media screen and (min-width: 1171px) {
   .projects {
@@ -228,17 +227,13 @@ main {
         margin-top: 1rem;
         font-size: 3rem; }
         .projects {
-            grid-template-columns: 1fr; } }
-        
+            grid-template-columns: 1fr; } }      
 
 .item img {
-    
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
-
 
 .item p {
     color: black;
