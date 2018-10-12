@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/portfolio.css">
+    <title>Antonella</title>
+</head>
+<body id="bg-img">
+    <div class="container-fluid">
+      <div class="pos-f-t">
+          <nav class="navbar-sm navbar-dark bg-dark" id="barra">
+              <button onclick="toggleMenu()" class="navbar-toggler" type="button" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+          </nav>
+          <nav id="sideMenu" class="nav flex-column float-left menu bg-dark menu_closed">
+              <div onclick="toggleMenu()" class="close_button">
+                  <span aria-hidden="true">&times;</span>
+              </div>
+          <div class="menu_content">
+  <!--menu_content para separar el menu del botón x-->
+              <a class="nav-link active" href="home.html">Home</a>
+              <a class="nav-link" href="about.html">Sobre mí</a>
+             
+              <a class="nav-link" href="portfolio.html">Portafolio</a>
+              <a class="nav-link" href="contact.html">Contacto</a>
+          </div>
+          </nav>
+      </div>
+
+      <main id="work">
+        <h1 class="lg-heading">
+          
+          <span class="text-secondary">Proyectos</span>
+        </h1>
+        <h2 class="sm-heading">
+          algunos proyectos realizados en Laboratoria
+        </h2>
+        <div class="projects">
+          <div class="item">
+            <a href="#!">
+                    <img src="src/img/projects/translab.png" style="height:200px; width: 150px;" alt="translab">
+              <p>(Versión mobile, sin versión desktop) Regístrate y consulta el saldo de tu tarjeta bip! Calcula tu saldo según la tarifa del pasaje, y guarda el número de tu(s) tarjeta(s) para posteriores consultas. 
+                Tecnologías usadas: Firebase auth, Firestore cloud database, rest api, JavaScript es6, html5&css3, flexbox, bootstrap 4, y tests unitarios con mocha & chai.</p>
+            </a>
+            <a href="https://anto-caroca.github.io/Reto-Trans-lab/" target="_blank" class="btn-light">
+              <i class="fas fa-eye"></i> Projecto Trans-Lab
+            </a>
+            <a href="https://github.com/anto-caroca/Reto-Trans-lab" target="_blank" class="btn-dark">
+              <i class="fab fa-github"></i> Github
+            </a>
+          </div>
+          <div class="item">
+            <a href="#!">
+              <img src="src/img/projects/synappse.png" alt="sinappse">
+              <p>Regístrate y comparte tu conocimiento en Synappse, la red social educativa.
+                Tecnologías usadas: React, JS, HTML5& CSS3, Firebase auth.</p>
+            </a>
+            <a href="https://carocromatica.github.io/synapp/" target="_blank" class="btn-light">
+              <i class="fas fa-eye"></i> Projecto Synappse
+            </a>
+            <a href="https://github.com/anto-caroca/synapp" target="_blank" class="btn-dark">
+              <i class="fab fa-github"></i> Github
+            </a>
+          </div>
+          <div class="item">
+            <a href="#!">
+              <img src="src/img/projects/foodmap.png" style="height:245px; width: 200px;" alt="foodmap">
+              <p>(Versión mobile) Consulta la dirección y ubicación en un mapa de los restaurantes más cercanos a Laboratoria. 
+                    Tecnologías: api places de Here Technologies, JavaScript, html5&css3, bootstrap 4, tests unitarios con mocha y chai.</p>
+            </a>
+            <a href="https://anto-caroca.github.io/Reto-FoodMap/index.html" class="btn-light">
+              <i class="fas fa-eye"></i> Projecto Food-Map
+            </a>
+            <a href="https://github.com/anto-caroca/Reto-FoodMap" class="btn-dark">
+              <i class="fab fa-github"></i> Github
+            </a>
+          </div>
+          <div class="item">
+            <a href="#!">
+              <img src="src/img/projects/pinterest.png" alt="Pinterest">
+              <p style="margin-top:35px; margin-bottom: 35px;">Replica de Pinterest. Tecnologías usadas: JavaScript ES6, HTML5, CSS3, Bootstrap 4, PixaBay API Widget, test con mocha & chai.</p>
+            </a>
+            <a href="https://anto-caroca.github.io/pinterest/" target="_blank" class="btn-light">
+              <i class="fas fa-eye"></i> Projecto Réplica Pinterest
+            </a>
+            <a href="https://github.com/anto-caroca/pinterest" target="_blank" class="btn-dark">
+              <i class="fab fa-github"></i> Github
+            </a>
+          </div>
+          <div class="item">
+            <a href="#!">
+              <img src="src/img/projects/trello.png" alt="trello">
+              <p style="margin-top:30px; margin-bottom: 30px;">Organiza tus actividades en la réplica de Trello.
+                    Tecnologías utilizadas: JavaScript es6, html5&css3, bootstrap 4, font-awesome, test con mocha & chai</p>
+            </a>
+            <a href="https://anto-caroca.github.io/Trello-challenge/index.html#" target="_blank" class="btn-light">
+              <i class="fas fa-eye"></i> Projecto Réplica Trello
+            </a>
+            <a href="https://github.com/anto-caroca/Trello-challenge" target="_blank" class="btn-dark">
+              <i class="fab fa-github"></i> Github
+            </a>
+          </div>
+          <div class="item">
+            <a href="#!">
+              <img src="src/img/projects/vegan.png" alt="vegan">
+              <p>Regístrate y comparte tu sabiduría vegana en Vegan! La red social vegana.
+                    Tecnologías usadas: Firebase auth, JavaScript es6, html5&css3, permanencia de datos con local storage, bootstrap, test unitarios con mocha & chai.</p>
+            </a>
+            <a href="https://anto-caroca.github.io/scl-2018-05-bc-core-pm-socialnetwork/src/login.html" target="_blank" class="btn-light">
+              <i class="fas fa-eye"></i> Projecto Vegan!
+            </a>
+            <a href="https://github.com/anto-caroca/scl-2018-05-bc-core-pm-socialnetwork" target="_blank" class="btn-dark">
+              <i class="fab fa-github"></i> Github
+            </a>
+          </div>
+          <div class="item">
+            <a href="#!">
+              <img src="src/img/projects/whatsapp.png" alt="whatsapp">
+              <p style="margin-top:40px; margin-bottom: 40px;">Regístrate y comparte mensajes en tiempo real.
+                    Tecnologías usadas: Firebese auth, firestore cloud database, JavaScript es6, html5 & css3, bootstrap 4, test con mocha & chai.</p>
+            </a>
+            <a href="https://anto-caroca.github.io/whatsapp-web/index.html" target="_blank" class="btn-light">
+              <i class="fas fa-eye"></i> Projecto Réplica whatsApp-web
+            </a>
+            <a href="https://github.com/anto-caroca/whatsapp-web" target="_blank" class="btn-dark">
+              <i class="fab fa-github"></i> Github
+            </a>
+          </div>
+        </div>
+      </main>
+
+      <script src="src/js/app.js"></script>
+</body>
+</html>
