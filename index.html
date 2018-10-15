@@ -1,42 +1,243 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title>Antonella</title>
-      <link rel="stylesheet" href="src/css/preloader.css">
-      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Antonella</title>
 </head>
 <body>
-      <div class="loading-page">
-            <div class="counter">
-                  <h1>0</h1>
+    <header class="showcase">
+        <div class="content">
+       
+          <div class="title">
+            <h1>Antonella Caroca Sanhueza</h1>
+          </div>
+          <div class="text">
+            Front-end Developer
+          </div>
+        </div>
+      </header>
+    <main>
+      <!-- Sobre mí -->
+      <section class="container-0">
+          <div class="box-1 center">
+              <h2>Sobre Mí</h2>
+              <p>Soy desarrolladora front-end, profesora de inglés, corredora y cat-lover. A la edad de
+                 24 años comencé a perder la audición. Lo cual me dificultó el ámbito laboral, pero no 
+                 me impidió encontrar nuevos proyectos, desafíos y metas. Estudié desarrollo web en
+                <a href="http://www.laboratoria.la/" target="_blank">Laboratoria</a>, 
+                 a la par que mis compañeras oyentes. Allí, descubrí que el apasionante mundo de la programación
+                  necesita talento femenino y también una mirada inclusiva.</p>
             </div>
+          <div class="container-1">
+        
+          <div class="box-2 center">
+              <i class="fas fa-chalkboard-teacher fa-3x"></i>
+            <h3>Profesora de Inglés</h3>
+            <p>(2010 - 2015) Pontificia Universidad Católica de Valparaíso.</p>
+          </div>
+          <div class="box-3 center">
+              <i class="fas fa-laptop fa-3x"></i>
+            <h3>Front-end Developer</h3>
+            <p>2018 - <a href="http://www.laboratoria.la/" target="_blank">Laboratoria</a></p>
+          </div>
+          <div class="box-4 center">
+              <a href="https://drive.google.com/drive/folders/1s5g00njfE5FIi3okL-QOfJqdUrAlkMQt?usp=sharing" target="_blank" aria-label="señas"><i class="fas fa-american-sign-language-interpreting fa-3x"></i>
+            <h4>Señas de Programación</h4>
+            <p>Conoce vocabulario de programación en Lengua de señas chilena.</p></a>
+          </div>
+        </div>
+      </section>
+      <section class="bg-light center">
+        <h4 class="tech">Habilidades Técnicas</h4>
+        <div class="icons">
+          <div id="div1"><i class="fab fa-js-square fa-2x" style="color:darkorange"></i> ES6</div>
+          <div id="div2"><i class="fab fa-html5 fa-2x" style="color:tomato"></i>HTML5</div>
+          <div id="div3"><i class="fab fa-css3-alt fa-2x" style="color:#0099ff"></i>CSS3</div>
+          <div id="div4">Responsive Web Design</div>
+          <div id="div5" style="color:purple">Bootstrap</div>
+          <div id="div6"><i class="fab fa-react fa-2x" style="color:#99d6ff"></i>REACT.JS</div>
+          <div id="div7"><i class="fab fa-github fa-2x"></i>Git & GitHub</div>
+          <div id="div8">Metodología Ágil</div>
+        </div>
+      </section>
+    
+      <!-- proyectos -->
+      <section class="container-2 bg-dark">
+            <div class="box-5 center">
+                <i class="fas fa-code fa-8x" style="margin-top: 30px;"></i>
+              <h3 class="projects">Proyectos</h3>
+
+              <div class="accordion" id="accordionExample">
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h4 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Trans-Lab
+                        </button>
+                      </h4>
+                    </div>
+                
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                      <div class="card-body">
+                          (Versión mobile, sin versión desktop) Regístrate y consulta el saldo de tu tarjeta bip! Calcula tu saldo según la tarifa del pasaje, 
+                          y guarda el número de tu(s) tarjeta(s) para posteriores consultas. Tecnologías usadas: Firebase auth, Firestore cloud database,
+                          rest api, JavaScript es6, html5&css3, flexbox, bootstrap 4, y tests unitarios con mocha & chai.
+                          <div class="links">
+                              <a href="https://anto-caroca.github.io/Reto-Trans-lab/" target="_blank" >
+                                <i class="fas fa-eye"></i> Ver projecto
+                              </a>
+                              <a href="https://github.com/anto-caroca/Reto-Trans-lab" target="_blank" >
+                                <i class="fab fa-github"></i> GitHub
+                              </a>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Synappse
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                      <div class="card-body">
+                          Regístrate y comparte tu conocimiento en Synappse, la red social educativa.
+                          Tecnologías usadas: React, JS, HTML5& CSS3, Firebase auth.
+                          <div class="links">
+                              <a href="https://carocromatica.github.io/synapp/" target="_blank">
+                                <i class="fas fa-eye"></i> Ver projecto 
+                              </a>
+                              <a href="https://github.com/anto-caroca/synapp" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                              </a>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingThree">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Food-Map
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="card-body">
+                          (Versión mobile) Consulta la dirección y ubicación en un mapa de los restaurantes más cercanos a Laboratoria. 
+                          Tecnologías: api places de Here Technologies, JavaScript, html5&css3, bootstrap 4, tests unitarios con mocha y chai.
+                          <div class="links">
+                              <a href="https://anto-caroca.github.io/Reto-FoodMap/index.html"  target="_blank">
+                                <i class="fas fa-eye"></i> Ver projecto 
+                              </a>
+                              <a href="https://github.com/anto-caroca/Reto-FoodMap"  target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                              </a>
+                          </div>  
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                      <div class="card-header" id="headingFour">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Réplica de Pinterest
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Réplica de Pinterest. Tecnologías usadas: JavaScript ES6, HTML5, CSS3, Bootstrap 4, PixaBay API Widget, test con mocha & chai.
+                            <div class="links">
+                                <a href="https://anto-caroca.github.io/pinterest/" target="_blank">
+                                  <i class="fas fa-eye"></i> Ver projecto
+                                </a>
+                                <a href="https://github.com/anto-caroca/pinterest" target="_blank">
+                                  <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                          <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                              Réplica de Trello
+                            </button>
+                          </h5>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                          <div class="card-body">
+                              Organiza tus actividades en la réplica de Trello.
+                              Tecnologías utilizadas: JavaScript es6, html5&css3, bootstrap 4, font-awesome, test con mocha & chai.
+                              <div class="links">
+                                  <a href="https://anto-caroca.github.io/Trello-challenge/index.html#" target="_blank">
+                                    <i class="fas fa-eye"></i> Ver projecto 
+                                  </a>
+                                  <a href="https://github.com/anto-caroca/Trello-challenge" target="_blank">
+                                    <i class="fab fa-github"></i> GitHub
+                                  </a>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                          <div class="card-header" id="headingSix">
+                            <h5 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                               Réplica WhatsApp Web
+                              </button>
+                            </h5>
+                          </div>
+                          <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Regístrate y comparte mensajes en tiempo real.
+                                Tecnologías usadas: Firebese auth, firestore cloud database, JavaScript es6, html5 & css3, bootstrap 4, test con mocha & chai.
+                                <div class="links">
+                                    <a href="https://anto-caroca.github.io/whatsapp-web/index.html" target="_blank" >
+                                      <i class="fas fa-eye"></i> Ver projecto 
+                                    </a>
+                                    <a href="https://github.com/anto-caroca/whatsapp-web" target="_blank" >
+                                      <i class="fab fa-github"></i> GitHub
+                                    </a>
+                                </div> 
+                            </div>
+                          </div>
+                        </div>
+                </div>
+            </div>
+         
+      </section>
+    <!-- contact -->
+    <section class="last">
+      <h3>Contacto</h3>
+      <div class="contact">
+          <a href="https://www.linkedin.com/in/anto-caroca/" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+          <a href="https://github.com/anto-caroca" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github fa-2x" ></i>
+          </a>
+          <i class="fab fa-whatsapp fa-2x" aria-label="phone">+569 35 79 86 84</i>
+          <i class="far fa-envelope fa-2x" aria-label="email"> antonellacaroca@gmail.com</i>
+          <i class="fas fa-map-marker-alt fa-2x" aria-label="address"> Valle Hermoso 11411, La Florida. Santiago</i>
       </div>
+    </section>
+  </main>
+      <footer class="center">
+        <p>Antonella Caroca &copy; 2018</p>
+      </footer>
 
-      <script>
-
-      $(document).ready(function() {
-
-      var counter = 0;
-      var c = 0;
-      var i = setInterval(function() {
-
-      $(".loading-page .counter h1").html(c);
-      $(".loading-page").css("width", c + "%");
-
-      counter++;
-      c++;
-      if(counter == 101) {
-            clearInterval(i);
-            window.location= "home.html";
-      }
-
-}, 50);
-
-});
-
-      </script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
