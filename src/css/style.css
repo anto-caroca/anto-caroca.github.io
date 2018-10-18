@@ -83,7 +83,17 @@ body {
     .showcase::after {
       height: 100vh;
     }
-  
+
+    .container-0, #sec4 {
+      margin-top: 5px;
+      padding-top: 5px;
+    }
+
+    .bg-light {
+      margin-top: 40px;
+      padding-top: 40px;
+    }
+
     .content {
       top: 15%;
       margin-top: 40px;
