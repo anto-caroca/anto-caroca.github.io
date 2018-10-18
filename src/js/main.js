@@ -1,10 +1,10 @@
 
         /* sobre mí*/ 
         ScrollReveal().reveal('.about', { delay: 500 })
-		ScrollReveal().reveal('.bio', { delay: 1000 })
-        ScrollReveal().reveal('.box-2', { delay: 1300 })
-        ScrollReveal().reveal('.box-4', { delay: 1500 })
-        ScrollReveal().reveal('.box-3', { delay: 1800 })
+		ScrollReveal().reveal('.bio', { delay: 800 })
+        ScrollReveal().reveal('.box-2', { delay: 1000 })
+        ScrollReveal().reveal('.box-4', { delay: 1200 })
+        ScrollReveal().reveal('.box-3', { delay: 1500 })
 
         /* proyectos*/
         ScrollReveal().reveal('.projects', { delay: 500 })
@@ -22,9 +22,9 @@
         ScrollReveal().reveal('.tech', { delay: 500 })
         ScrollReveal().reveal('#div1', { delay: 1000 })
         ScrollReveal().reveal('#div2', { delay: 1200 })
-        ScrollReveal().reveal('#div3', { delay: 1500 })
-        ScrollReveal().reveal('#div4', { delay: 1800 })
-        ScrollReveal().reveal('#div5', { delay: 2000 })
-        ScrollReveal().reveal('#div6', { delay: 2200 })
-        ScrollReveal().reveal('#div7', { delay: 2400 })
-        ScrollReveal().reveal('#div8', { delay: 2600 })
+        ScrollReveal().reveal('#div3', { delay: 1300 })
+        ScrollReveal().reveal('#div4', { delay: 1400 })
+        ScrollReveal().reveal('#div5', { delay: 1500 })
+        ScrollReveal().reveal('#div6', { delay: 1600 })
+        ScrollReveal().reveal('#div7', { delay: 1700 })
+        ScrollReveal().reveal('#div8', { delay: 1800 })

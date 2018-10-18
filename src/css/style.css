@@ -18,7 +18,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     display: block;
-
   }
 
   .content {
@@ -82,12 +81,12 @@ body {
   @media (max-width: 560px) {
     
     .showcase::after {
-      height: 50vh;
+      height: 100vh;
     }
   
     .content {
-      top: 5%;
-      margin-top: 5px;
+      top: 15%;
+      margin-top: 40px;
     }
   
     .content .logo {
@@ -118,36 +117,42 @@ body {
     .content {
       top: 0;
     }
-    
   }
  
   @media(min-width:468px){
     .container-1{
         display: flex;
+    } 
+  }
+
+  .box-5 {
+    width: 50%;
+  }
+  @media(max-width:468px){
+    .box-5 {
+      width: 100%;
     }
-    
   }
 
   .box-1{
     width: 100%;
 }
 
-
-
 @media screen and (min-width: 1600px) {
   section {
     height: 100vh;
     width: 100%;
   }
+
   .box-5 {
     width: 50%;
   }
+  
   .icons {
     margin-left: 25%;
     margin-right: 25%;
   }
 }
-
 
 .box-1{
   margin-top: 9%;
@@ -254,7 +259,7 @@ ul li a {
 
 @media only screen and (max-width: 600px) {
   ul {
-      display: none;
+      font-size: 10px;
   }
 }
 
@@ -301,4 +306,10 @@ ul li a {
   text-align: center;
 }
 
+ul {
+  z-index: 1;
+}
 
+.accordion {
+  z-index: 2;
+}
