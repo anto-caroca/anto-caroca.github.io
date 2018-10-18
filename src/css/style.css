@@ -142,6 +142,10 @@ body {
   .box-5 {
     width: 50%;
   }
+  .icons {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
 }
 
 
@@ -159,68 +163,12 @@ body {
   margin-top: 8%;
 }
 
-#div1, #div2, #div3, #div4, #div5, #div6, #div7, #div8 {
-  width: 200px;
-  height: 80px;
-  
-  font-weight: bold;
-  position: relative;
-  -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
-  animation: mymove 5s infinite;
-}
-
-/* Safari 4.0 - 8.0 */
-#div1 {-webkit-animation-timing-function: linear;}
-#div2 {-webkit-animation-timing-function: ease;}
-#div3 {-webkit-animation-timing-function: ease-in;}
-#div4 {-webkit-animation-timing-function: ease-out;}
-#div5 {-webkit-animation-timing-function: ease-in-out;}
-#div6 {-webkit-animation-timing-function: ease-in;}
-#div7 {-webkit-animation-timing-function: ease-out;}
-#div8 {-webkit-animation-timing-function: ease-in-out;}
-
-/* Standard syntax */
-#div1 {animation-timing-function: linear;}
-#div2 {animation-timing-function: ease;}
-#div3 {animation-timing-function: ease-in;}
-#div4 {animation-timing-function: ease-out;}
-#div5 {animation-timing-function: ease-in-out;}
-#div6 {animation-timing-function: ease-in;}
-#div7 {animation-timing-function: ease-out;}
-#div8 {animation-timing-function: ease-in-out;}
-
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes mymove {
-    from {left: 0px;}
-    to {left: 200px;}
-}
-
-/* Standard syntax */
-@keyframes mymove {
-    from {left: 0px;}
-    to {left: 200px;}
-}
-
-.icons {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  /*align-items:center;*/
-  margin-left: 40%;
-}
-
 .tech {
   padding: 5%;
   font-weight: bold;
 }
 
 @media(max-width:468px){
-  .icons{
-    width: 100px;
-    margin-left: 0%;
-    padding-left: 0%;
-  }
   .contact {
     font-size: 10px;
   }
@@ -305,9 +253,52 @@ ul li a {
 }
 
 @media only screen and (max-width: 600px) {
-  
-
   ul {
       display: none;
   }
 }
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  
+}
+
+.icons div {
+  padding: 20px;
+}
+
+#div1{ 
+  text-align: left;
+}
+
+#div2{
+  text-align: center;
+}
+
+#div3{
+  text-align: right;
+}
+
+#div4{ 
+  text-align: left;
+}
+
+#div5{
+  text-align: center;
+}
+
+#div6{
+  text-align: right;
+}
+
+#div7{ 
+  text-align: left;
+}
+
+#div8{
+  text-align: center;
+}
+
+

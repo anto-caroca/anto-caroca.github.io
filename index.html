@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="src/css/style.css">
     <title>Antonella</title>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+	<script>
+		ScrollReveal({ duration: 1000 })
+	</script>
+</head>
 </head>
 <body>
     <header id="sec1" data-text="section 1" class="showcase">
@@ -32,8 +38,8 @@
       <!-- Sobre mí -->
       <section class="container-0" id="sec2" data-text="section 2">
           <div class="box-1 center">
-              <h2>Sobre Mí</h2>
-              <p>Soy desarrolladora front-end, profesora de inglés, corredora y cat-lover. A la edad de
+              <h2 class="about">Sobre Mí</h2>
+              <p class="bio">Soy desarrolladora front-end, profesora de inglés, corredora y cat-lover. A la edad de
                  24 años comencé a perder la audición. Lo cual me dificultó el ámbito laboral, pero no 
                  me impidió encontrar nuevos proyectos, desafíos y metas. Estudié desarrollo web en
                 <a href="http://www.laboratoria.la/" target="_blank">Laboratoria</a>, 
@@ -59,6 +65,8 @@
           </div>
         </div>
       </section>
+
+      <!-- tech skills -->
       <section class="bg-light center" id="sec3" data-text="section 3">
         <h4 class="tech">Habilidades Técnicas</h4>
         <div class="icons">
@@ -66,7 +74,7 @@
           <div id="div2"><i class="fab fa-html5 fa-2x" style="color:tomato"></i>HTML5</div>
           <div id="div3"><i class="fab fa-css3-alt fa-2x" style="color:#0099ff"></i>CSS3</div>
           <div id="div4">Responsive Web Design</div>
-          <div id="div5" style="color:purple">Bootstrap</div>
+          <div id="div5" style="color:purple"><i class="devicon-bootstrap-plain-wordmark colored"></i>Bootstrap</div>
           <div id="div6"><i class="fab fa-react fa-2x" style="color:#99d6ff"></i>REACT.JS</div>
           <div id="div7"><i class="fab fa-github fa-2x"></i>Git & GitHub</div>
           <div id="div8">Metodología Ágil</div>
@@ -225,23 +233,24 @@
       </section>
     <!-- contact -->
     <section class="last" section id="sec5" data-text="section 5">
-      <h3>Contacto</h3>
+      <h3 class="contacto">Contacto</h3>
       <div class="contact">
           <a href="https://www.linkedin.com/in/anto-caroca/" target="_blank" aria-label="LinkedIn">
-            <i class="fab fa-linkedin fa-2x"></i>
+            <i id="linkedin" class="fab fa-linkedin fa-2x"></i>
           </a>
           <a href="https://github.com/anto-caroca" target="_blank" aria-label="GitHub">
-            <i class="fab fa-github fa-2x" ></i>
+            <i id="github" class="fab fa-github fa-2x" ></i>
           </a>
-          <i class="fab fa-whatsapp fa-2x" aria-label="phone">+569 35 79 86 84</i>
-          <i class="far fa-envelope fa-2x" aria-label="email"> antonellacaroca@gmail.com</i>
-          <i class="fas fa-map-marker-alt fa-2x" aria-label="address"> Valle Hermoso 11411, La Florida. Santiago</i>
+          <i id="phone" class="fab fa-whatsapp fa-2x" aria-label="phone">+569 35 79 86 84</i>
+          <i id="mail" class="far fa-envelope fa-2x" aria-label="email"> antonellacaroca@gmail.com</i>
+          <i id="address" class="fas fa-map-marker-alt fa-2x" aria-label="address"> Valle Hermoso 11411, La Florida. Santiago</i>
       </div>
     </section>
   </main>
       <footer class="center">
         <p>Antonella Caroca &copy; 2018</p>
       </footer>
+<script src="src/js/main.js"></script>
 
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
