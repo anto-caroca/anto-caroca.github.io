@@ -252,6 +252,7 @@ ul {
   letter-spacing: 0;
   display: flex;
   justify-content: space-around;
+  z-index: 1;
 }
 
 ul li {
@@ -314,10 +315,6 @@ ul li a {
 
 #div8{
   text-align: center;
-}
-
-ul {
-  z-index: 1;
 }
 
 .accordion {
